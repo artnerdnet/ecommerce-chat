@@ -1,0 +1,14 @@
+<li class="chatBubble__container">
+  <div class="chatBubble__profile">
+    <div>
+      <img src="<%= message.author.avatar %>" class="chatBubble__avatar" />
+    </div>
+    <div class="chatBubble__messageData">
+      <span class="chatBubble__name"><%= message.author.name %> <%= message.author.surname %></span>
+      <span class="chatBubble__date"><%= message.timestamp %></span>
+    </div>
+  </div>
+  <div class="chatBubble__message">
+    <span><%= message.text %></span>
+  </div>
+</li>

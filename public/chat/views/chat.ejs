@@ -1,0 +1,15 @@
+<div class="chat__container hidden">
+  <div class="chat__log" id="chat-log">
+    <ul class="chat__log--ul"> 
+      <% messages.forEach(function(message){ %>
+        <%- include('./chatBubble.ejs', {message}); %>
+      <% }); %>
+    </ul>
+  </div>
+  <div class="chat__message">
+    <form id="chat-form" class="chat__form">
+      <input id="chat-message" type="text" name="newMessage" class="chat__input" placeholder="Type your message..." />
+      <button id="chat-message-submit" class="chat__submit">Send</button>
+    </form>
+  </div>
+</div>

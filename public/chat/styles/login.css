@@ -1,0 +1,65 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgba(109, 40, 217)
+}
+
+.link__button,
+button {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  background: rgba(109, 40, 217);
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  margin: 4px;
+  font: 14px/100% Arial, Helvetica, sans-serif;
+  padding: .5em 2em .55em;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+  border-radius: .3em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .2);
+}
+
+.link__button:hover,
+button:hover {
+  background: #ffffff;
+  color: rgba(109, 40, 217);
+}
+
+.chatLogin__input {
+  border-radius: 2px;
+  border-width: 2px;
+  box-shadow: none;
+  text-shadow: none;
+  border-color: rgba(109, 40, 217);
+  margin: 4px 0;
+  padding: 4px;
+  border-radius: 5px;
+}
+
+a {
+  color: rgba(109, 40, 217);
+}
+
+a:hover {
+  color: #000000
+}
+
+span {
+  display: table;
+  white-space: normal;
+}
+
+.chatLogin__form {
+  display: flex;
+  flex-flow: column;
+  margin: 8px;
+}
+
+.chatLogin__header {
+  text-align: center;
+}
